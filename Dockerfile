@@ -73,9 +73,11 @@ bash -c \
    idna==3.10 \
    joblib==1.4.2 \
    josepy==1.15.0 \
+   mariadb \
    nltk==3.9.1 \
    parsedatetime==2.6 \
    pycparser==2.22 \
+   pyMySQL \
    pyOpenSSL==25.0.0 \
    pyparsing==3.2.3 \
    pyRFC3339==2.0.1 \
@@ -138,7 +140,7 @@ EXPOSE 80 443 9001 514 25 465 8080 8081 8082 5432 6379 4369 5671 5672 25672
 ENV \
 CONTAINERROLE="all" \
 LOCALE="en_US.UTF-8 UTF-8" \
-TIMEZONE="America/New_York" \
+TIMEZONE="America/Chicago" \
 SUPERVISORLOGLEVEL="info" \
 EC2="" \
 S3ENABLE="" \
