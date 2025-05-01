@@ -1,5 +1,22 @@
 # Change Log
 
+## [1.7.4] - 2025-04-30
+
+### Fixed
+- Accessibility issues with help icons.
+
+## [1.7.3] - 2025-04-25
+
+### Fixed
+- Downgraded Python packages to adjust for a Google library being
+  behind.
+
+## [1.7.2] - 2025-04-24
+
+### Fixed
+- Issue with Convert API.
+- Stack trace shown when not expected.
+
 ## [1.7.1] - 2025-04-13
 
 ### Added

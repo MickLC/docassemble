@@ -54,21 +54,21 @@ bash -c \
 && cp /usr/local/bin/unoconv /usr/bin/unoconv \
 && python3 -m venv --copies /usr/share/docassemble/local3.12 \
 && source /usr/share/docassemble/local3.12/bin/activate \
-&& pip install --upgrade pip==25.0.1 \
+&& pip install --upgrade pip==25.1 \
 && pip install --upgrade wheel==0.45.1 \
 && pip install --upgrade mod_wsgi==5.0.2 \
 && pip install --upgrade \
-   acme==3.3.0 \
-   certbot==3.3.0 \
-   certbot-apache==3.3.0 \
-   certbot-nginx==3.3.0 \
+   acme==3.1.0 \
+   certbot==3.1.0 \
+   certbot-apache==3.1.0 \
+   certbot-nginx==3.1.0 \
    certifi==2025.1.31 \
    cffi==1.17.1 \
    charset-normalizer==3.4.1 \
    click==8.1.8 \
    ConfigArgParse==1.7 \
    configobj==5.0.9 \
-   cryptography==44.0.2 \
+   cryptography==43.0.3 \
    distro==1.9.0 \
    idna==3.10 \
    joblib==1.4.2 \
@@ -78,7 +78,7 @@ bash -c \
    parsedatetime==2.6 \
    pycparser==2.22 \
    pyMySQL \
-   pyOpenSSL==25.0.0 \
+   pyOpenSSL==24.2.1 \
    pyparsing==3.2.3 \
    pyRFC3339==2.0.1 \
    python-augeas==1.1.0 \
